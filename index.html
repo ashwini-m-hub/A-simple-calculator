@@ -1,0 +1,44 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Simple Calculater</title>
+  <link rel="stylesheet" href="calc.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css">
+  <script src="cacl.js"></script>
+</head>
+<body class="body bg-dark text-light">
+  
+  <div class="container">
+    <h1>Simple caculator</h1>
+    <input type="text" id="input" readonly placeholder="00">
+    <br>
+    <div class="btn bg-light" onclick="C('C')">C</div>
+    <div class="btn bg-light" onclick="sqrt('√')">√</div>  
+    <div class="btn bg-light" onclick="square('x²')">x²</div>
+    <div class="btn bg-light" onclick="display('/')">/</div>
+    <br>
+    <div class="btn bg-light" onclick="display('7')">7</div>
+    <div class="btn bg-light" onclick="display('8')">8</div>  
+    <div class="btn bg-light" onclick="display('9')">9</div>
+    <div class="btn bg-light" onclick="display('*')">*</div>
+    <br>
+    <div class="btn bg-light" onclick="display('4')">4</div>
+    <div class="btn bg-light" onclick="display('5')">5</div>
+    <div class="btn bg-light" onclick="display('6')">6</div>
+    <div class="btn bg-light" onclick="display('-')">-</div>
+    <br>
+    <div class="btn bg-light" onclick="display('1')">1</div>
+    <div class="btn bg-light" onclick="display('2')" >2</div>
+    <div class="btn bg-light" onclick="display('3')">3</div>
+    <div class="btn bg-light" onclick="display('+')">+</div>
+    <br>
+    <div class="btn bg-light" onclick="display('0')">0</div>
+    <div class="btn bg-light" onclick="display('.')">.</div>
+    <div class="btn bg-light" onclick="arthimatic('=')">=</div>
+    <div class="btn bg-light" onclick="dele('D')">D</div>
+  </div>
+</body>
+</html>
