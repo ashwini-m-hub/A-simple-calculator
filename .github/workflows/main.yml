@@ -39,7 +39,7 @@ jobs:
 
       # Step 5: Upload zip as artifact (optional)
       - name: Upload zip as artifact
-        uses: actions/upload-artifact@v3
+        uses: actions/upload-artifact@v4
         with:
           name: calculator-artifact
           path: calculator.zip
